@@ -15,3 +15,9 @@
 ## Operator &
 
 - Untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita bisa menggunakan operator `&` diikuti dengan nama variable nya
+
+## Operator `*`
+
+- Saat kita mengubah variable pointer, maka data yang berubah hanya variable tersebut
+- Semua variable yang mengacu ke data yang sama tidak akan berubah
+- Jika kita ingin mengubah seluruh variable yang mengacu ke data tersebut, kita bisa menggunakan operator `*`
