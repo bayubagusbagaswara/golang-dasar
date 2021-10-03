@@ -28,4 +28,7 @@ func main() {
 	fmt.Println(address2) // tapi address2 ini akan berpindah pointer ke Address yang baru
 	fmt.Println(address3)
 
+	var address4 *Address = new(Address)
+	fmt.Println(address4) // hasilnya data kosong
+
 }

@@ -21,3 +21,9 @@
 - Saat kita mengubah variable pointer, maka data yang berubah hanya variable tersebut
 - Semua variable yang mengacu ke data yang sama tidak akan berubah
 - Jika kita ingin mengubah seluruh variable yang mengacu ke data tersebut, kita bisa menggunakan operator `*`
+
+## Function new
+
+- Sebelumnya untuk membuat pointer dengan menggunakan operator `&`
+- Go-Lang juga memiliki function new yang bisa digunakan untuk membuat pointer
+- Namun, function `new` hanya mengembalikan pointer ke data kosong, artinya tidak ada data awal
