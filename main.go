@@ -8,15 +8,15 @@ type Address struct {
 }
 
 func main() {
-	address1 := Address{"Kediri", "Jawa Timur", "Indonesia"}
+	var address1 Address = Address{"Kediri", "Jawa Timur", "Indonesia"}
 
-	// kita bikin variable address2 yang berasal dari address1
-	address2 := address1
+	// kita ingin address2 ini pointer ke address1, maka menggunakan operator &
+	var address2 *Address = &address1
 
 	// lalu kita coba mengubah data di address2
 	address2.City = "Surabaya"
 
-	fmt.Println(address1) // datanya tetap tidak berubah
+	fmt.Println(address1) // ini akan ikut berubah
 	fmt.Println(address2)
 
 }
