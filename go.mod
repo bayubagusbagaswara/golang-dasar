@@ -1,3 +1,3 @@
-module package-import
+module golang-dasar
 
 go 1.16
