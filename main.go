@@ -26,7 +26,9 @@ func main() {
 
 	fmt.Println(address) // data asli address tidak berubah
 
-	// Note: usahakan kalau bikin Data Struct yang besar lebih baik parameternya adalah Pointer
-	// karena, jika bukan pointer dan kita mau ubah data, maka data tersebut akan disimpan di memori, semakin banyak maka memori akan penuh
+	// Note:
+	// jika membuat Data Struct yang besar, maka lebih baik setting parameternya berupa pointer
+	// perubahan data akan disimpan dalam memori, semakin banyak data maka memori penuh
+	// jika memori penuh, aplikasi akan lambat
 
 }
